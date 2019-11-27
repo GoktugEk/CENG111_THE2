@@ -6,3 +6,4 @@
 # Run the "the2_tester.py" file so that you can see your result.
 # Your function has to return just "COMPLETELY COVERED" or just "NOT COMPLETELY COVERED".Otherwise the tester wouldn't work properly.
 # Your function's name has to be "isCovered"
+# Tester file was written by using python3, so make sure you run the tester with python 3.
