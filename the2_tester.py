@@ -4,7 +4,7 @@ t1 = time.time()
 number = 0
 with open("the2_tester_data.txt","r") as file:
     data = file.read().split("\n")
-    data[0] = data[0][3:]
+    data[0] = data[0][1:]
     for ii in data:
         a = int(ii[3:5])
         b = int(ii[6:8])
@@ -23,6 +23,8 @@ with open("the2_tester_data.txt","r") as file:
             print("Succesful")
         elif   result != ii[ii.find(":")+3:-2]:
             print("Failed on {}".format(ii[:ii.find(":")]))
+            print("Your work found: {}".format(result))
+            print("It should have been {}.".format(ii[ii.find(":")+3:-2]))
             number += 1
     t2 = time.time()
     print("Execute time is: {}".format(t2-t1))
