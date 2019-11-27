@@ -7,3 +7,4 @@
 # 5-Your function has to return just "COMPLETELY COVERED" or just "NOT COMPLETELY COVERED".Otherwise the tester wouldn't work properly.
 # 6-Your function's name has to be "isCovered"
 # 7-Tester file was written by using python3, so make sure you run the tester with python 3.
+# 8- In case you want to use the data 2, you should change the name of the file to "the2_tester_data.txt". 
